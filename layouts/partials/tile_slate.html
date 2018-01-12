@@ -1,0 +1,5 @@
+<div class="tile-container">
+	{{ range .Site.Data.teams.teams }}
+		{{ partial "tile.html"  (dict "Team" .) }}
+	{{ end }}
+</div>

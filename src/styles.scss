@@ -1,0 +1,14 @@
+$themeColor-Light: #f3e2c7;
+
+body {
+	background-color: $themeColor-Light;
+}
+
+.tile-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tile {
+	flex: 1;
+}

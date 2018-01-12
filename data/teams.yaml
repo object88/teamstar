@@ -1,0 +1,23 @@
+teams:
+-
+  name: 'A Team'
+  description: 'The A-Team is who you call when you are in a bad situation, and no-one else can help you out.'
+  tags:
+  - 'ALM'
+  - 'Churro'
+  aliases:
+  - 'ASCII Table Flip'
+  flow: 'https://www.flowdock.com/app/ca-technologies/etc-etc-etc'
+  email_list: ''
+  retired: false
+  formerly:
+  - 'Eh Team'
+-
+  name: 'B Team'
+-
+  name: 'Etc., Etc., Etc.'
+  description: 'We do stuff for inventory'
+  tags:
+  - 'Churro'
+  - 'Inventory'
+  retired: true

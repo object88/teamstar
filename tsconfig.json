@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"outDir": "./static",
+		"module": "es6",
+		"sourceMap": true,
+		"target": "es6"
+	}
+}
