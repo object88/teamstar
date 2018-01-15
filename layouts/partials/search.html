@@ -1,13 +1,14 @@
-<form role="search">
-	<div>
-		<label for="filter" id="filter-label">What are you looking for?</label>
+<div class="search">
+	<form role="search">
+		<label class="search-label" for="filter" id="filter-label">What are you looking for?</label>
 		<input 
 				aria-labelledby="filter-label" 
+				class="search-input"
 				id="filter" 
 				name="filter" 
 				onchange=filterChanged 
 				oninput=filterChanged 
 				placeholder="IE, team name, purpose, etc." 
 				type="search"/>
-	</div>
-</form>
+	</form>
+</div>

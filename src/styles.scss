@@ -1,14 +1,73 @@
-$themeColor-Light: #f3e2c7;
+$themeColor-Dark: rgb(73, 73, 73);
+$themeColor-Light: #cccccc;
+$themeColor-Text: #dddddd;
 
 body {
 	background-color: $themeColor-Light;
+	font-family: 'Share Tech Mono', monospace;
+	margin: 0px;
+}
+
+section.container {
+	align-items: center;
+	display: flex;
+	flex-flow: column wrap;
+	height: 100vh;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+
+.header {
+	background: $themeColor-Dark;
+	color: $themeColor-Text;
+	font-size: 4rem;
+	width: 80%;
+}
+
+.search {
+	border-radius: 0 0 10px 10px;
+	background: $themeColor-Dark;
+	color: $themeColor-Text;
+	width: 80%;
+}
+
+.search-label {
+	float: left;
+	margin-left: 10px;
+}
+
+.search-input {
+	float: right;
+	margin-right: 10px;
 }
 
 .tile-container {
+	align-content: flex-start;
+	align-items: stretch;
 	display: flex;
-	flex-wrap: wrap;
+	flex-basis: 300px;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	margin: auto;
+	width: 100%
 }
 
 .tile {
-	flex: 1;
+	flex: 0 1 40%;
+	border-radius: 10px;
+	background: $themeColor-Dark;
+  padding: 15px;
+	margin: 5px;
+	color: $themeColor-Text;
+	width: 40%;
+}
+
+.footer {
+	border-radius: 10px 10px 0 0;
+	background: $themeColor-Dark;
+	color: $themeColor-Text;
+  height: 20px;
+	margin-top: -20px;
+	width: 80%;
 }

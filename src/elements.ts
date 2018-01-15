@@ -11,4 +11,14 @@ class Tag extends HTMLElement {
 	}
 }
 
+class Tags extends HTMLElement {
+	constructor() {
+		super();
+	}
+
+	connectedCallback() {
+		
+	}
+}
+
 customElements.define("team-tag", Tag)
